@@ -13,7 +13,7 @@ public class Main {
         Job4 job4 = new Job4();
 
         int count = 0;
-        ThreadPool threadPool = new ThreadPool(4);
+        ThreadPool threadPool = new ThreadPool(3);
         while(count < 5) {
             Random r = new Random();
             int x = r.nextInt(4);
